@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/talya"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="ap.example.annirbas.staxi.annuler">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="90dp"
+        android:paddingTop="300dp"
+        android:text="@string/text2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="23dp" />
+
+
+
+</LinearLayout>

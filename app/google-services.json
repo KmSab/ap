@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "619721875944",
+    "firebase_url": "https://application-dd016.firebaseio.com",
+    "project_id": "application-dd016",
+    "storage_bucket": "application-dd016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619721875944:android:504f380d3af19c8a",
+        "android_client_info": {
+          "package_name": "ap.example.annirbas.staxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619721875944-agg1scm90mf13jnqnn9btvoa30an5din.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ap.example.annirbas.staxi",
+            "certificate_hash": "9728c34f38e3f99b63ac13e9ef8b48de9150941e"
+          }
+        },
+        {
+          "client_id": "619721875944-2tmpvl8iitnb6mjq1bri2f1u26ve2vh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ap.example.annirbas.staxi",
+            "certificate_hash": "f89c07a124fbd9816a4d826de302779abce40cfc"
+          }
+        },
+        {
+          "client_id": "619721875944-f027gug6psv8nd77go2hgu2ooss9somn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ap.example.annirbas.staxi",
+            "certificate_hash": "0697eff4a12a6b04273faf25748ec6590d5bdcfc"
+          }
+        },
+        {
+          "client_id": "619721875944-p1nqmglf1dj24ue47hg84v4t1ab4rlbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQglHnsLctcAaK3thJS5aov_BoW7zg5Lg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619721875944-p1nqmglf1dj24ue47hg84v4t1ab4rlbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/desgin"
+    tools:context="ap.example.annirbas.staxi.forclins">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Nom"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <EditText
+        android:id="@+id/Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Votre Nom"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:id="@+id/tv1"
+    android:layout_width="150dp"
+    android:layout_height="35dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center"
+    android:text="prénom"
+    android:textColor="@android:color/black"
+    android:textSize="14sp"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="33dp" />
+
+<EditText
+    android:id="@+id/Prenom"
+    android:layout_width="130dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="5dp"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="Votre prenom"
+    android:textAlignment="center"
+    android:textSize="14sp"
+    android:textStyle="bold" />
+</LinearLayout>
+
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:id="@+id/tvnum"
+    android:layout_width="150dp"
+    android:layout_height="35dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center"
+    android:text="N° de téle"
+    android:textColor="@android:color/black"
+    android:textSize="14sp"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="33dp" />
+
+<EditText
+    android:id="@+id/Ntele"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginLeft="5dp"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="Votre Numero"
+    android:textAlignment="center"
+    android:textSize="14sp"
+    android:textStyle="bold" />
+
+</LinearLayout>
+
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:id="@+id/tv3"
+    android:layout_width="150dp"
+    android:layout_height="35dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center"
+    android:text="Nom d'utilisateur"
+    android:textColor="@android:color/black"
+    android:textSize="14sp"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="33dp" />
+
+<EditText
+    android:id="@+id/Nomutil"
+    android:layout_width="130dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="5dp"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="Vote nom d'utilisateur "
+    android:textAlignment="center"
+    android:textSize="14sp"
+    android:textStyle="bold" />
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<TextView
+    android:id="@+id/tv2"
+    android:layout_width="150dp"
+    android:layout_height="35dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center"
+    android:text="Mot de passe"
+    android:textColor="@android:color/black"
+    android:textSize="14sp"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="33dp" />
+
+<EditText
+    android:id="@+id/Motdpasse"
+    android:layout_width="130dp"
+    android:layout_height="35dp"
+    android:layout_marginLeft="5dp"
+    android:layout_weight="1"
+    android:ems="10"
+    android:hint="*******"
+    android:inputType="textPassword"
+    android:textAlignment="center"
+    android:textColor="@android:color/black"
+    android:textSize="14sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/annuler"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/desgin"
+            android:onClick="annuler"
+            android:text="Annuler"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <Button
+            android:id="@+id/valider"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/desgin"
+            android:onClick="inscription"
+            android:text="Valider"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+    </LinearLayout>
+</LinearLayout>

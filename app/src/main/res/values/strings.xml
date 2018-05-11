@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Staxi</string>
+    <string name="activity_scrolling2">à propos de nous</string>
+    <string-array name="DES_Type">
+        <item>parmanence</item>
+        <item>etranger</item>
+    </string-array>
+    <string name="large_text">
+    \n Service taxi est une entreprise de transport qui vous permet de réserver un chauffeur à proximité qui vous conduit là où vous souhaitez aller.Vous pouvez également devenir chauffeur et gagner de l\'argent selon votre propre emploi du temps.\n\n Notre application est une plateforme technologique qui met en relation des chauffeurs-partenaires et des passagers par le biais d\'une application mobile.\n\n
+    Voici comment elle fonctionne : \n\n l\'application vous permet
+    de commander une course,Votre commande est envoyée aux notre entreprise. Lorsque votre commande est acceptée,
+    l\'application indique le délai estimé d\'arrivé de chauffeur sur le lieu de prise en charge Une fois la course
+    commandée, l\'application vous donne le nom, le type de véhicule et le numéro d\'immatriculation du chauffeur-partenaire
+    pour que vous soyez sûr de monter dans le bon véhicule. Votre course se termine une fois que vous êtes arrivé à destination.
+    Le prix de la course est calculé automatiquement et débité sur le moyen de paiement que vous avez lié à votre compte
+    Service Taxi \n\n Commandez une course à tout moment de la journée, tous les jours de l'année.
+    \n Des courses à tous les prix En toute occasion\n\n
+    •	Economique\n
+    Des voitures de tous les jours et à des prix abordables, pour les groupes allant jusqu'à 4 personnes\n\n
+    •	PREMIUM\n
+    Faites une entrée remarquée, que votre déplacement soit personnel ou professionnel\n\n
+    •	ACCESSIBLE\n
+    Voitures accessibles aux personnes à mobilité réduite ou équipées de sièges enfant\n\n
+    •	PARTAGÉE\n
+    Partagez votre course et son prix avec d'autres passagers qui se rendent dans la même direction que vous\n\n
+    Votre avis est important\n
+    Notez votre chauffeur et laissez un commentaire anonyme sur votre course. Votre avis nous permet de proposer un service optimal pour chaque course.
+    \n\nPour Devenir un chaufeur :vous devez obtenir l'autorisation de vous inscrire sur la plateforme Service taxi pour bénéficier de leurs services et donnez les informations requis
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Nom utilisateur</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Entrez</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login_activitytax">Sign in</string>
+    <string name="title_activity_demande_course">demande_course</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_login_activitycl">Sign in</string>
+    <string name="title_activity_comptetax">comptetax</string>
+    <string-array name="type_tax">
+        <item>Etrangere</item>
+        <item>Parmanence</item>
+    </string-array>
+
+    <string-array name="type_course">
+        <item>Economique</item>
+        <item>Premium</item>
+        <item>Accessible</item>
+        <item>Partagée</item>
+    </string-array>
+
+    <string-array name="wilaya">
+        <item>Wilaya</item>
+        <item>Médéa</item>
+        <item>Alger</item>
+        <item>Blida</item>
+    </string-array>
+    <string-array name="Daiira">
+        <item>Daiira</item>
+        <item>M</item>
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+
+    <string-array name="Commune">
+        <item>Commune</item>
+        <item>m</item>
+        <item>a</item>
+        <item>b</item>
+    </string-array>
+    <string name="title_activity_scrolling2">ScrollingActivity2</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="text2" > Bienvenue Dans notre
+        monde du service
+        Nous espérons répondre
+        à votre prochaine demande</string>
+
+</resources>
